@@ -3,6 +3,8 @@
     package="presto.watch.prestosampleproject" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -28,7 +30,7 @@
             </intent-filter>
         </service>
 
-        
+
     </application>
 
 </manifest>
