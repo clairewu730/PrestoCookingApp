@@ -14,7 +14,7 @@ public class GestureReceiverService extends AppLaunchReceiverService {
 
     @Override
     protected Class getPhoneActivityClass() {
-        return MainActivity.class;
+        return ClarifaiActivity.class;
     }
 
 }
